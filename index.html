@@ -9,7 +9,7 @@
 		<script src="./script.js" defer></script>
 	</head>
 	<body>
-		<header class="header"></header>
+		<header class="header"><h1>Calculator</h1></header>
 		<main class="main" id="main">
 			<div class="calculator">
 				<div class="display" id="display">0</div>
@@ -31,11 +31,28 @@
 					<button class="button operator-btn" id="subtractionBtn">-</button>
 					<button class="button operator-btn" id="multiplicationBtn">x</button>
 					<button class="button operator-btn" id="divisionBtn">÷</button>
-					<button class="button operator-btn" id="clearBtn">clear</button>
+					<button class="button operator-btn" id="clearBtn">Clear</button>
+					<button class="button" id="backspaceBtn">Delete</button>
 					<button class="button operator-btn" id="equalsBtn">=</button>
 				</div>
 			</div>
 		</main>
-		<footer class="footer"></footer>
+		<footer class="footer">
+			<nav class="navigation">
+				<ul class="links">
+					<li>
+						Check the source code on my
+						<a href="https://github.com/emmacornio/Calculator">Github</a>
+					</li>
+					<li>
+						This project is part of
+						<a
+							href="https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/calculator"
+							>The Odin Project Curriculum</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</footer>
 	</body>
 </html>
